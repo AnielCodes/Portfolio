@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-image: url(./images/background-image.jpg);
+  width: auto;
+  height: 937px;
+}
+
+#banner-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#helloWorldContainer {
+  position: relative;
+  height: 30%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+}
+
+#helloWorldContainer P {
+  color: rgb(161, 247, 144);
+  font-size: 15px;
+}
+
+#aboutMeContainer {
+background-color: rgb(255, 255, 255);
+height: 50%;
+width: 40%;
+position: absolute;
+left: 50%;
+top: 30%;
+border-radius: 0px  40px 0px  40px;
+border: 8px solid rgba(29, 87, 37, 0.76);
+}
+
+#aboutMeDiv {
+  width: 45%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+#aboutMeDiv p {
+  margin-top: 20%;
+  font-size: 21px;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  border-radius: 0px 0px 0px  30px;
+}
+
+button {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  height: 2.5em;
+  width: 7em;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(91, 211, 67);
+  position: absolute;
+  left: 92%;
+  margin-top: 10px;
+}
