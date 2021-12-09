@@ -1,11 +1,11 @@
 import './App.css';
 import pexels from './images/pexels.jpeg'
 
+
 function App() {
   return (
     <>
       <div  className="container">
-      <button>Contanct</button>
 
         <div id="banner-box">
           <div id="helloWorldContainer">
@@ -14,6 +14,10 @@ function App() {
             <p>Front-End Developer | Back-End Developer</p>
           </div>
         </div>
+
+        <container id="socialbox"> 
+
+        </container>
 
         <container id="aboutMeContainer">
         <img src={pexels}></img>
@@ -24,8 +28,6 @@ function App() {
           </p>
           </div>
         </container>
-
-
 
       </div>    
     </>

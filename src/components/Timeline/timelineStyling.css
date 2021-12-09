@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .certificatebox {
+      position: relative;
+      background-color: rgb(0, 0, 0);
+      width: auto;
+      height: 100vh;
+  }
+
+  .certificatetitle {
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+  }
